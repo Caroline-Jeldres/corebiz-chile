@@ -23,4 +23,4 @@ export class Productos extends Component{
         )
     }
 }
-export default Productos
+export default Productos 
