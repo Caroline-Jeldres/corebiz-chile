@@ -1,0 +1,28 @@
+.div-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.alice-carousel__prev-btn{
+    display: none !important;
+}
+.alice-carousel__next-btn{
+    display: none;
+}
+.sliderimg{
+    width: 100%;
+}
+.alice-carousel__dots{
+    top: -103px;
+    position: relative;
+}
+.alice-carousel__dots-item:not(.__custom) {
+    width: 15px;
+    height: 15px;
+    background-color: #888a92;
+}
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #F9475F;
+}

@@ -1,0 +1,58 @@
+.footer{
+    background: black;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+.location{
+    margin: 20px;
+}
+.location span{
+    font-size: 27px;
+}
+.separador{
+    width: 60px;
+    height: 8px;
+    background: #F5F5F5;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contacto div{
+    background: #F5F5F5;
+    color: black;
+    margin: 37px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: flex-start;
+}
+.contacto div img{
+    width: 28px;
+}
+.contacto div span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logos div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.logos div img{
+    width: 107px;
+    margin-top: 5px;
+
+}

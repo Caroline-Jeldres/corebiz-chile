@@ -1,0 +1,29 @@
+.menu{
+    padding-top: 20px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    color: grey;
+}
+
+.div-search{
+    width: 500px;
+    border-bottom: 2px solid rgb(56, 55, 55);
+    display: flex;
+    justify-content: space-between;
+
+}
+.div-search input{
+    border: none;
+    outline: none;
+    width: 400px;
+    font-size: 16px;
+}
+.div-search img{
+    width: 19px;
+}
+.user img{
+    width: 19px;
+}
